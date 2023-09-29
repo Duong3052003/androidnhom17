@@ -15,29 +15,29 @@ import com.example.myapplication.view.UserManagerActivity;
 
 public class MainViewModel extends BaseObservable {
     public void checkLogin(Context context){
-        if (DataLocalManager.getIsLogin()){
-            ThanhVienDAO thanhVienDAO = AppDatabase.getInstance(context).getThanhVienDAO();
-            ThanhVien thanhVien =  thanhVienDAO.getThanhVienByUserName(DataLocalManager.getNameUser());
-            chuyenTrangTheoQuyen(thanhVien.getIdQuyenThanhVien(), context);
-
-        }
-        else {
-            Toast.makeText(context, "Hãy đăng nhập hoặc đăng ký để trải nghiệm ứng dụng này", Toast.LENGTH_LONG).show();
-
-        }
+//        if (DataLocalManager.getIsLogin()){
+//            ThanhVienDAO thanhVienDAO = AppDatabase.getInstance(context).getThanhVienDAO();
+//            ThanhVien thanhVien =  thanhVienDAO.getThanhVienByUserName(DataLocalManager.getNameUser());
+//            chuyenTrangTheoQuyen(thanhVien.getIdQuyenThanhVien(), context);
+//
+//        }
+//        else {
+//            Toast.makeText(context, "Hãy đăng nhập hoặc đăng ký để trải nghiệm ứng dụng này", Toast.LENGTH_LONG).show();
+//
+//        }
     }
 
     public void chuyenTrangTheoQuyen(int quyen, Context context){
-        if(quyen == 1 || quyen == 2){
-            Intent intent = new Intent(context, AdminManagerActivity.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-            context.startActivity(intent);
-
-        }
-        else {
-            Intent intent = new Intent(context, UserManagerActivity.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-            context.startActivity(intent);
-        }
+//        if(quyen == 1 || quyen == 2){
+//            Intent intent = new Intent(context, AdminManagerActivity.class);
+//            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//            context.startActivity(intent);
+//
+//        }
+//        else {
+//            Intent intent = new Intent(context, UserManagerActivity.class);
+//            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//            context.startActivity(intent);
+//        }
     }
 }
