@@ -1,0 +1,30 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context=".view.UserManagerActivity">
+    <data>
+        <variable
+            name="UserManagerViewModel"
+            type="com.example.androidnhom17.UserManagerViewModel" />
+    </data>
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/framelayout_user"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/containerBtn"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menu_user"
+        android:background="@color/black1"
+        app:itemTextColor="@color/color_bottom_nav"
+        app:itemIconTint="@color/color_bottom_nav"
+        />
+</RelativeLayout>
+</layout>
