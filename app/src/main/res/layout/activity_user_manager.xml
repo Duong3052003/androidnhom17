@@ -12,7 +12,7 @@
     <RelativeLayout android:layout_width="match_parent"
         android:layout_height="match_parent">
     <FrameLayout
-        android:id="@+id/framelayout_user"
+        android:id="@+id/framelayoutuser"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
