@@ -1,0 +1,43 @@
+package com.example.androidnhom17.view;
+
+import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.databinding.DataBindingUtil;
+import androidx.fragment.app.FragmentTransaction;
+
+import com.example.androidnhom17.R;
+import com.example.androidnhom17.databinding.ActivityDatVeManagerBinding;
+import com.example.androidnhom17.viewmodel.DatVeManagerViewModel;
+
+public class DatVeManagerActivity extends AppCompatActivity {
+    ActivityDatVeManagerBinding activityDatVeManagerBinding;
+    DatVeManagerViewModel datVeManagerViewModel = new DatVeManagerViewModel() ;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        activityDatVeManagerBinding = DataBindingUtil.setContentView(DatVeManagerActivity.this, R.layout.activity_dat_ve_manager);
+        activityDatVeManagerBinding.setDatVeManagerViewModel(datVeManagerViewModel);
+
+        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+        fragmentTransaction.replace(activityDatVeManagerBinding.containerDatVe.getId(), new ThongKeNguoiDungFragment());
+        fragmentTransaction.commit();
+
+        activityDatVeManagerBinding.tabAdmin.setOnItemSelectedListener(item -> {
+            int itemId = item.getItemId();
+            if (itemId == R.id.action_chuyen_xe){
+                FragmentTransaction fragmentTransaction1 = getSupportFragmentManager().beginTransaction();
+                fragmentTransaction1.replace(activityDatVeManagerBinding.containerDatVe.getId(), new ThongKeChuyenXeFragment());
+                fragmentTransaction1.commit();
+                return true;
+            }
+            else if (itemId == R.id.action_user){
+                FragmentTransaction fragmentTransaction1 = getSupportFragmentManager().beginTransaction();
+                fragmentTransaction1.replace(activityDatVeManagerBinding.containerDatVe.getId(), new ThongKeNguoiDungFragment());
+                fragmentTransaction1.commit();
+                return true;
+            }
+            return false;
+        });
+    }
+}
