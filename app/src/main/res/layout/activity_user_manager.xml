@@ -22,7 +22,7 @@
         android:id="@+id/containerBtn"
         android:layout_alignParentBottom="true"
         app:menu="@menu/menu_user"
-        android:background="@color/black1"
+        android:background="@color/black"
         app:itemTextColor="@color/color_bottom_nav"
         app:itemIconTint="@color/color_bottom_nav"
         />
