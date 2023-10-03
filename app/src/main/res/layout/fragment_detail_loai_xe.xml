@@ -6,7 +6,7 @@
     <data>
         <variable
             name="DetailLoaiXeViewModel"
-            type="com.example.myapplication.viewmodel.DetailLoaiXeViewModel" />
+            type="com.example.androidnhom17.viewmodel.DetailLoaiXeViewModel" />
     </data>
     <ScrollView
         android:layout_width="match_parent"

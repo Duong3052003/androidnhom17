@@ -6,7 +6,7 @@
     <data>
         <variable
             name="AddChuyenXeViewModel"
-            type="com.example.androidnhom7.viewmodel.AddChuyenXeViewModel" />
+            type="com.example.androidnhom17.viewmodel.AddChuyenXeViewModel" />
     </data>
 
     <ScrollView

@@ -5,7 +5,7 @@
     <data>
         <variable
             name="DetailThanhVienViewModel"
-            type="com.example.myapplication.viewmodel.DetailThanhVienViewModel" />
+            type="com.example.androidnhom17.viewmodel.DetailThanhVienViewModel" />
     </data>
 
     <ScrollView

@@ -5,7 +5,7 @@
     <data>
         <variable
             name="VeDetailViewModel"
-            type="com.example.myapplication.viewmodel.DetailVeViewModel" />
+            type="com.example.androidnhom17.viewmodel.DetailVeViewModel" />
     </data>
     <LinearLayout
         android:layout_width="match_parent"

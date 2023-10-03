@@ -6,7 +6,7 @@
     <data>
         <variable
             name="AddThanhVienViewModel"
-            type="com.example.androidnhom7.viewmodel.AddThanhVienViewModel" />
+            type="com.example.androidnhom17.viewmodel.AddThanhVienViewModel" />
     </data>
     <ScrollView
         android:layout_width="match_parent"

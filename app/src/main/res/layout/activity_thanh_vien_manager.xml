@@ -6,7 +6,7 @@
     <data>
         <variable
             name="ThanhVienManagerViewModel"
-            type="com.example.androidnhom7.viewmodel.ThanhVienManagerViewModel" />
+            type="com.example.androidnhom17.viewmodel.ThanhVienManagerViewModel" />
     </data>
     <RelativeLayout
         android:layout_width="match_parent"

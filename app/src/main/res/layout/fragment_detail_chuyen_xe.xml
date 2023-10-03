@@ -5,7 +5,7 @@
     <data>
         <variable
             name="DetailChuyenXeViewModel"
-            type="com.example.androidnhom7.viewmodel.DetailChuyenXeViewModel" />
+            type="com.example.androidnhom17.viewmodel.DetailChuyenXeViewModel" />
     </data>
 
     <ScrollView
