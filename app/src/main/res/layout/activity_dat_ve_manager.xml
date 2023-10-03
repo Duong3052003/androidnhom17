@@ -7,7 +7,7 @@
     <data>
         <variable
             name="DatVeManagerViewModel"
-            type="com.example.androidnhom7.viewmodel.DatVeManagerViewModel" />
+            type="com.example.androidnhom17.viewmodel.DatVeManagerViewModel" />
     </data>
     <RelativeLayout
         android:layout_width="match_parent"

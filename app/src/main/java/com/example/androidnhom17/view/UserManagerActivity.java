@@ -8,9 +8,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.example.myapplication.R;
-import com.example.myapplication.databinding.ActivityUserManagerBinding;
-import com.example.myapplication.viewmodel.UserManagerViewModel;
+import com.example.androidnhom17.R;
+import com.example.androidnhom17.databinding.ActivityUserManagerBinding;
+import com.example.androidnhom17.viewmodel.UserManagerViewModel;
 import com.google.android.material.navigation.NavigationBarView;
 
 public class UserManagerActivity extends AppCompatActivity {

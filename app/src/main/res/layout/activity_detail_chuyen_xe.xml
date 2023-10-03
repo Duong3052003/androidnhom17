@@ -7,7 +7,7 @@
     <data>
         <variable
             name="ADetailChuyenXeViewModel"
-            type="com.example.androidnhom7.viewmodel.ADetailChuyenXeViewModel" />
+            type="com.example.androidnhom17.viewmodel.ADetailChuyenXeViewModel" />
     </data>
 
     <RelativeLayout

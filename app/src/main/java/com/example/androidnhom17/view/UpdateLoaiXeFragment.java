@@ -8,10 +8,10 @@ import android.view.ViewGroup;
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
 
-import com.example.myapplication.R;
-import com.example.myapplication.databinding.FragmentUpdateLoaiXeBinding;
-import com.example.myapplication.model.LoaiXe;
-import com.example.myapplication.viewmodel.UpdateLoaiXeViewModel;
+import com.example.androidnhom17.R;
+import com.example.androidnhom17.databinding.FragmentUpdateLoaiXeBinding;
+import com.example.androidnhom17.model.LoaiXe;
+import com.example.androidnhom17.viewmodel.UpdateLoaiXeViewModel;
 
 public class UpdateLoaiXeFragment extends Fragment {
 

@@ -9,9 +9,9 @@ import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
-import com.example.myapplication.R;
-import com.example.myapplication.databinding.FragmentThongKeNguoiDungBinding;
-import com.example.myapplication.viewmodel.ThongKeNguoiDungViewModel;
+import com.example.androidnhom17.R;
+import com.example.androidnhom17.databinding.FragmentThongKeNguoiDungBinding;
+import com.example.androidnhom17.viewmodel.ThongKeNguoiDungViewModel;
 
 
 public class ThongKeNguoiDungFragment extends Fragment {
