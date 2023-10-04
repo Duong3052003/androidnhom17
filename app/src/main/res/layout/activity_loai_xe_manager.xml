@@ -6,7 +6,7 @@
     <data>
         <variable
             name="LoaiXeManagerViewModel"
-            type="com.example.androidnhom7.viewmodel.LoaiXeManagerViewModel" />
+            type="com.example.androidnhom17.viewmodel.LoaiXeManagerViewModel" />
     </data>
     <RelativeLayout
         android:layout_width="match_parent"

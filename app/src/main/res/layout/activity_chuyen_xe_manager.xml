@@ -6,7 +6,7 @@
     <data>
         <variable
             name="ChuyenXeManagerViewModel"
-            type="com.example.androidnhom7.viewmodel.ChuyenXeManagerViewModel" />
+            type="com.example.androidnhom17.viewmodel.ChuyenXeManagerViewModel" />
     </data>
     <RelativeLayout
         android:layout_width="match_parent"

@@ -6,7 +6,7 @@
     <data>
         <variable
             name="AdminManagerViewModel"
-            type="com.example.androidnhom7.viewmodel.AdminManagerViewModel" />
+            type="com.example.androidnhom17.viewmodel.AdminManagerViewModel" />
     </data>
     <RelativeLayout
         android:layout_width="match_parent"

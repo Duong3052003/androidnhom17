@@ -5,7 +5,7 @@
     <data>
         <variable
             name="SignupViewModel"
-            type="com.example.androidnhom7.viewmodel.SignupViewModel" />
+            type="com.example.androidnhom17.viewmodel.SignupViewModel" />
 
     </data>
     <ScrollView

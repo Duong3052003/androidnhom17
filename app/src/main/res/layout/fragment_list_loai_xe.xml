@@ -6,7 +6,7 @@
     <data>
         <variable
             name="ListLoaiXeViewModel"
-            type="com.example.myapplication.viewmodel.ListLoaiXeViewModel" />
+            type="com.example.androidnhom17.viewmodel.ListLoaiXeViewModel" />
     </data>
     <LinearLayout
         android:orientation="vertical"

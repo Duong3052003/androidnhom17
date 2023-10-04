@@ -5,7 +5,7 @@
     <data>
         <variable
             name="ListThanhVienViewModel"
-            type="com.example.myapplication.viewmodel.ListThanhVienViewModel" />
+            type="com.example.androidnhom17.viewmodel.ListThanhVienViewModel" />
     </data>
     <LinearLayout
         android:layout_width="match_parent"
