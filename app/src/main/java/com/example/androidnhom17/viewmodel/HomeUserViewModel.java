@@ -5,8 +5,8 @@ import android.content.Context;
 import androidx.databinding.BaseObservable;
 import androidx.databinding.Bindable;
 
-import com.denzcoskun.imageslider.constants.ScaleTypes;
-import com.denzcoskun.imageslider.models.SlideModel;
+//import com.denzcoskun.imageslider.constants.ScaleTypes;
+//import com.denzcoskun.imageslider.models.SlideModel;
 import com.example.androidnhom17.BR;
 import com.example.androidnhom17.R;
 import com.example.androidnhom17.adapter.ChuyenXeUserAdapter;
@@ -39,13 +39,13 @@ public class HomeUserViewModel extends BaseObservable {
         setAvatar(thanhVien.getAvatar());
     }
 
-    public List<SlideModel> listImage(){
-        List<SlideModel> list = new ArrayList<SlideModel>();
-        list.add(new SlideModel(R.drawable.slide2, ScaleTypes.CENTER_CROP));
-        list.add(new SlideModel(R.drawable.slide, ScaleTypes.CENTER_CROP));
-        list.add(new SlideModel(R.drawable.slide1, ScaleTypes.CENTER_CROP));
-        return list;
-    }
+//    public List<SlideModel> listImage(){
+//        List<SlideModel> list = new ArrayList<SlideModel>();
+//        list.add(new SlideModel(R.drawable.slide2, ScaleTypes.CENTER_CROP));
+//        list.add(new SlideModel(R.drawable.slide, ScaleTypes.CENTER_CROP));
+//        list.add(new SlideModel(R.drawable.slide1, ScaleTypes.CENTER_CROP));
+//        return list;
+//    }
 
     public ChuyenXeUserAdapter getChuyenXeUserAdapter() {
         return chuyenXeUserAdapter;

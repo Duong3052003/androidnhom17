@@ -9,7 +9,7 @@ import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
-import com.denzcoskun.imageslider.constants.ScaleTypes;
+//import com.denzcoskun.imageslider.constants.ScaleTypes;
 import com.example.androidnhom17.R;
 import com.example.androidnhom17.config.FunctionPublic;
 import com.example.androidnhom17.databinding.FragmentHomeUserBinding;
@@ -30,7 +30,7 @@ public class HomeUserFragment extends Fragment {
         FunctionPublic.loadImage(homeUserViewModel.getAvatar(),fragmentHomeUserBinding.avatarImg,getContext());
 
 //        slide ở đây
-        fragmentHomeUserBinding.imageSlider.setImageList(homeUserViewModel.listImage(), ScaleTypes.FIT);
+//        fragmentHomeUserBinding.imageSlider.setImageList(homeUserViewModel.listImage(), ScaleTypes.FIT);
 
 //        render ra adapter
 

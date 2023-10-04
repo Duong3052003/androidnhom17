@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
 
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,24 +8,25 @@
     <data>
         <variable
             name="UserManagerViewModel"
-            type="com.example.androidnhom17.UserManagerViewModel" />
+            type="com.example.androidnhom17.viewmodel.UserManagerViewModel" />
     </data>
     <RelativeLayout android:layout_width="match_parent"
         android:layout_height="match_parent">
-    <FrameLayout
-        android:id="@+id/framelayoutuser"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/containerBtn"
-        android:layout_alignParentBottom="true"
-        app:menu="@menu/menu_user"
-        android:background="@color/black"
-        app:itemTextColor="@color/color_bottom_nav"
-        app:itemIconTint="@color/color_bottom_nav"
-        />
-</RelativeLayout>
+        <FrameLayout
+            android:id="@+id/fragmentAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/containerBtn"/>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/containerBtn"
+            android:background="@color/colorBgMenu"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/menu_user"
+            app:itemBackground="@color/colorBgMenu"
+            app:itemIconTint="@color/white"
+            app:itemTextColor="@color/white"
+            />
+    </RelativeLayout>
 </layout>

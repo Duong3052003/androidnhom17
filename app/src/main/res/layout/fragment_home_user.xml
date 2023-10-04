@@ -60,16 +60,16 @@
             </RelativeLayout>
 
 
-            <com.denzcoskun.imageslider.ImageSlider
-                android:layout_marginVertical="12dp"
-                android:id="@+id/image_slider"
-                app:iss_corner_radius="10"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                app:iss_auto_cycle="true"
-                app:iss_period="1000"
-                app:iss_delay="2000"
-                app:iss_text_align="CENTER"/>
+<!--            <com.denzcoskun.imageslider.ImageSlider-->
+<!--                android:layout_marginVertical="12dp"-->
+<!--                android:id="@+id/image_slider"-->
+<!--                app:iss_corner_radius="10"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="150dp"-->
+<!--                app:iss_auto_cycle="true"-->
+<!--                app:iss_period="1000"-->
+<!--                app:iss_delay="2000"-->
+<!--                app:iss_text_align="CENTER"/>-->
 
             <LinearLayout
                 android:layout_width="match_parent"
